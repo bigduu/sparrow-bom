@@ -74,26 +74,18 @@
         <repository>bigduu-org/sparrow-bom</repository>
     </properties>
 
-  <repositories>
-        <repository>
-          <id>central</id>
-          <url>https://repo1.maven.org/maven2</url>
-        </repository>
-        <repository>
-          <id>github</id>
-          <url>https://maven.pkg.github.com/bigduu-org/repositories</url>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
-        </repository>
-      </repositories>
+<repositories>
+    <repository>
+        <id>space-maven</id>
+        <url>https://maven.pkg.jetbrains.space/mugeng/p/learn-rust/maven</url>
+    </repository>
+</repositories>
 
 <distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>GitHub OWNER Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/${repository}</url>
-   </repository>
+    <repository>
+        <id>space-maven</id>
+        <url>https://maven.pkg.jetbrains.space/mugeng/p/learn-rust/maven</url>
+    </repository>
 </distributionManagement>
 
 
